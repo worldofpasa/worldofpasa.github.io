@@ -1,0 +1,11 @@
+[
+  {
+    "slug": "printpasa",
+    "name": "PrintPasa",
+    "tagline": "Self-hosted AI t-shirt design pipeline",
+    "repo": "https://github.com/worldofpasa/printpasa",
+    "docs": "https://printpasa-docs.pages.dev",
+    "demo": "https://printpasa-demo.pages.dev",
+    "status": "active"
+  }
+]
