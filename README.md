@@ -12,9 +12,12 @@ Pasa, written पासा in Nepali and 𑐥𑐵𑐳𑐵 in Nepal Bhasa, means 
 
 ## Adding or updating a project
 
-1. Edit `projects.json` (see `PROJECT_TEMPLATE.md` for the org-wide checklist). Use `null` for links that do not exist yet. Valid `status` values: `active`, `in-development`, `coming-soon`.
-2. Run `node scripts/render-projects.mjs`.
-3. Commit both files and push. The deploy workflow re-renders and publishes.
+1. Run `node scripts/sync-projects.mjs`. It lists the org's repos with the `gh` CLI (private ones included) and appends a stub entry to `projects.json` for any repo not yet listed. Existing entries are never touched, and it warns about entries whose repo no longer exists.
+2. Curate the new stub in `projects.json` (see `PROJECT_TEMPLATE.md` for the org-wide checklist): tagline, description, links, `status` (`active`, `in-development`, `coming-soon`). Use `null` for links that do not exist yet. Set `"hidden": true` to keep an entry off the page without the sync script re-adding it.
+3. Run `node scripts/render-projects.mjs`.
+4. Commit and push. The deploy workflow re-renders and publishes.
+
+Manual edits to `projects.json` without the sync script work the same as before; the script is just the shortcut when a new repo appears in the org.
 
 ## Deploy
 

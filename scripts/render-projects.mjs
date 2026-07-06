@@ -5,7 +5,10 @@ import { readFileSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 
 const root = fileURLToPath(new URL('..', import.meta.url))
+// Entries with "hidden": true stay in projects.json (so sync-projects.mjs
+// does not re-add them) but are left off the page.
 const projects = JSON.parse(readFileSync(`${root}/projects.json`, 'utf8'))
+  .filter(p => !p.hidden)
 
 const STATUS = {
   'active': { label: 'Active', cls: 'live' },

@@ -28,5 +28,15 @@
     "docs": null,
     "demo": null,
     "status": "coming-soon"
+  },
+  {
+    "slug": "specpasa",
+    "name": "SpecPasa",
+    "tagline": "Self-hosted collaborative spec builder",
+    "description": "Spec Driven Development, built together with AI.",
+    "repo": null,
+    "docs": null,
+    "demo": null,
+    "status": "coming-soon"
   }
 ]
