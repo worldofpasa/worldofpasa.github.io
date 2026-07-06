@@ -3,9 +3,30 @@
     "slug": "printpasa",
     "name": "PrintPasa",
     "tagline": "Self-hosted AI t-shirt design pipeline",
+    "description": "From prompt to print-ready artwork, on your own hardware.",
     "repo": "https://github.com/worldofpasa/printpasa",
     "docs": "https://printpasa-docs.pages.dev",
     "demo": "https://printpasa-demo.pages.dev",
     "status": "active"
+  },
+  {
+    "slug": "traderpasa",
+    "name": "TraderPasa",
+    "tagline": "Self-hosted operating system for automated trading",
+    "description": "Strategies, backtests, and execution under one roof.",
+    "repo": "https://github.com/worldofpasa/traderpasa",
+    "docs": null,
+    "demo": null,
+    "status": "in-development"
+  },
+  {
+    "slug": "pysapasa",
+    "name": "PysaPasa",
+    "tagline": "Cross-country, family-oriented personal finance",
+    "description": "Track money across borders, together, privately.",
+    "repo": null,
+    "docs": null,
+    "demo": null,
+    "status": "coming-soon"
   }
 ]

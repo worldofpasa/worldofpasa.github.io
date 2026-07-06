@@ -3,20 +3,109 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>World of Pasa</title>
-  <link rel="stylesheet" href="assets/style.css" />
+  <title>World of Pasa · Open-source, self-hosted tools</title>
+  <meta name="description" content="World of Pasa builds open-source, self-hosted software for creators and operators. Pasa (पासा · 𑐥𑐵𑐳𑐵) means friend in Nepal Bhasa. MIT licensed, documented, with live demos." />
+
+  <!-- TODO: switch canonical + og URLs to https://worldofpasa.com once the custom domain is set on GitHub Pages -->
+  <link rel="canonical" href="https://worldofpasa.github.io/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="World of Pasa" />
+  <meta property="og:title" content="World of Pasa · Open-source, self-hosted tools" />
+  <meta property="og:description" content="Open-source, self-hosted software for creators and operators. Pasa means friend in Nepal Bhasa. MIT licensed, documented, with live demos." />
+  <meta property="og:url" content="https://worldofpasa.github.io/" />
+  <meta property="og:image" content="https://worldofpasa.github.io/assets/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="World of Pasa · Open-source, self-hosted tools" />
+  <meta name="twitter:description" content="Open-source, self-hosted software for creators and operators. MIT licensed, documented, with live demos." />
+  <meta name="twitter:image" content="https://worldofpasa.github.io/assets/og.png" />
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rozha+One&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Noto+Sans+Newa&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="/assets/style.css" />
 </head>
 <body>
-  <header class="hero">
-    <h1>World of Pasa</h1>
-    <p class="tagline">Open-source tools for creators and operators.</p>
+  <header class="mast">
+    <span class="mark">World of Pasa</span>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="https://github.com/worldofpasa">GitHub</a>
+    </nav>
   </header>
+
   <main>
-    <section id="projects" class="projects"></section>
+    <section class="hero">
+      <span class="ghost" aria-hidden="true">𑐥𑐵𑐳𑐵</span>
+      <p class="eyebrow">An open-source studio</p>
+      <h1>Tools built in the spirit of <em>friendship.</em></h1>
+      <p class="lede"><strong>Pasa, written पासा in Nepali and <span class="newa">𑐥𑐵𑐳𑐵</span> in Nepal Bhasa, means friend.</strong> We build open-source, self-hosted software for creators and operators. Tools that respect your data, your infrastructure, and your time. MIT licensed, carefully documented, with a live demo for every project.</p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">See the projects</a>
+        <a class="btn ghost-btn" href="https://github.com/worldofpasa">GitHub</a>
+      </div>
+    </section>
+
+    <section class="values">
+      <div>
+        <h3>Self-hosted</h3>
+        <p>Your data stays on your machines. Deploy guides and sane defaults ship with every release, and nothing phones home.</p>
+      </div>
+      <div>
+        <h3>MIT licensed</h3>
+        <p>Free to use, fork, and build on. No open-core bait and no license switch waiting down the road.</p>
+      </div>
+      <div>
+        <h3>Demo before you deploy</h3>
+        <p>Every project launches with a documentation site and a read-only live demo, so you can evaluate before installing.</p>
+      </div>
+    </section>
+
+    <section class="sect" id="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <!-- projects:start — generated from projects.json by scripts/render-projects.mjs; do not edit by hand -->
+        <article class="card">
+          <span class="status live">Active</span>
+          <h3>PrintPasa</h3>
+          <p>Self-hosted AI t-shirt design pipeline. From prompt to print-ready artwork, on your own hardware.</p>
+          <div class="links">
+            <a href="https://printpasa-docs.pages.dev">Docs</a>
+            <a href="https://printpasa-demo.pages.dev">Demo</a>
+            <a href="https://github.com/worldofpasa/printpasa">GitHub</a>
+          </div>
+        </article>
+        <article class="card">
+          <span class="status early">In development</span>
+          <h3>TraderPasa</h3>
+          <p>Self-hosted operating system for automated trading. Strategies, backtests, and execution under one roof.</p>
+          <div class="links">
+            <a href="https://github.com/worldofpasa/traderpasa">GitHub</a>
+            <span class="off">Docs soon</span>
+          </div>
+        </article>
+        <article class="card">
+          <span class="status soon">Coming soon</span>
+          <h3>PysaPasa</h3>
+          <p>Cross-country, family-oriented personal finance. Track money across borders, together, privately.</p>
+          <div class="links">
+            <span class="off">In private development</span>
+          </div>
+        </article>
+        <!-- projects:end -->
+      </div>
+    </section>
   </main>
+
   <footer>
-    <p>MIT licensed projects · <a href="https://github.com/worldofpasa">GitHub</a></p>
+    <span>© 2026 World of Pasa · MIT licensed · पासा · <span class="newa">𑐥𑐵𑐳𑐵</span> · friend</span>
+    <span><a href="https://github.com/worldofpasa">github.com/worldofpasa</a></span>
   </footer>
-  <script src="assets/main.js"></script>
 </body>
 </html>
