@@ -33,10 +33,11 @@
     "slug": "specpasa",
     "name": "SpecPasa",
     "tagline": "Self-hosted collaborative spec builder",
-    "description": "Spec Driven Development, built together with AI.",
-    "repo": null,
-    "docs": null,
+    "description": "From rough intent to reviewable PRDs, ERDs, and implementation-ready tasks.",
+    "site": "./specpasa/",
+    "repo": "https://github.com/worldofpasa/specpasa",
+    "docs": "https://github.com/worldofpasa/specpasa/tree/main/docs",
     "demo": null,
-    "status": "coming-soon"
+    "status": "in-development"
   }
 ]

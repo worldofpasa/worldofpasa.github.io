@@ -23,6 +23,7 @@ const esc = s => String(s)
 function card(p) {
   const status = STATUS[p.status] ?? { label: p.status, cls: 'soon' }
   const links = []
+  if (p.site) links.push(`<a href="${esc(p.site)}">Site</a>`)
   if (p.docs) links.push(`<a href="${esc(p.docs)}">Docs</a>`)
   if (p.demo) links.push(`<a href="${esc(p.demo)}">Demo</a>`)
   if (p.repo) links.push(`<a href="${esc(p.repo)}">GitHub</a>`)

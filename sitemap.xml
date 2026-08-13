@@ -4,4 +4,8 @@
     <loc>https://worldofpasa.github.io/</loc>
     <changefreq>monthly</changefreq>
   </url>
+  <url>
+    <loc>https://worldofpasa.github.io/specpasa/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>

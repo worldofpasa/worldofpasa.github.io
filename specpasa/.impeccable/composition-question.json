@@ -1,0 +1,48 @@
+{
+  "title": "Choose the landing-page composition",
+  "question": "Which first-view structure feels most like SpecPasa? The product, palette, screenshots, and claims stay fixed; this locks the page’s visual argument.",
+  "options": [
+    {
+      "id": "freeze-gate",
+      "label": "Freeze Gate Control Room",
+      "kicker": "Workflow first",
+      "lineage": "Assigned direction · seed fe975e49 · card 6",
+      "thesis": "Make the IDEA → PRD → ERD → TASKS freeze gates the first thing people understand, with the active product workspace as immediate proof.",
+      "palette": "Cool paper, white sheets, dark ink, mint gates",
+      "materials": "Enterprise workbench, crisp rules, tactile status rails",
+      "viewport": "Lifecycle rail above a large PRD workspace",
+      "risk": "Slightly denser first viewport, but fastest product comprehension",
+      "comp": ".impeccable/mocks/decision/freeze-gate.webp"
+    },
+    {
+      "id": "version-ledger",
+      "label": "Version Ledger",
+      "kicker": "Trust first",
+      "lineage": "Seed fe975e49 · card 3",
+      "thesis": "Lead with review history, version snapshots, and AI provenance so enterprise trust becomes the primary reason to keep reading.",
+      "palette": "Cool paper, white sheets, dark ink, mint provenance",
+      "materials": "Ledger rows, review annotations, precise metadata",
+      "viewport": "Version rail beside selected content and review threads",
+      "risk": "Strong governance story; the end-to-end workflow lands second",
+      "comp": ".impeccable/mocks/decision/version-ledger.webp"
+    },
+    {
+      "id": "lifecycle-runway",
+      "label": "Lifecycle Runway",
+      "kicker": "Journey first",
+      "lineage": "Seed fe975e49 · card 1",
+      "thesis": "Turn the complete idea-to-implementation journey into one sweeping runway, with the active PRD workspace embedded directly in the flow.",
+      "palette": "Cool paper, white sheets, dark ink, mint path",
+      "materials": "Sequenced stations, connecting rails, generous whitespace",
+      "viewport": "Large linear lifecycle with an embedded product panel",
+      "risk": "Most inviting and spacious; individual governance details appear later",
+      "comp": ".impeccable/mocks/decision/lifecycle-runway.webp"
+    }
+  ],
+  "reroll": true,
+  "buildPath": {
+    "value": "comp",
+    "toggle": true
+  },
+  "steer": true
+}
